@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>CHALLENGE_01</title>
+</head>
+<body>
+    <section class="reto">
+        <H1>CODEMBER - MIDUDEV- CHALLENGE_01</H1>
+        <p>Un espía está enviando mensajes encriptados.
+            
+            Tu misión es crear un programa que nos ayude a buscar patrones...
+            
+            Los mensajes son palabras separadas por espacios como este:
+            gato perro perro coche Gato peRRo sol
+            
+            Necesitamos que el programa nos devuelva el número de veces que aparece cada palabra en el mensaje, independientemente de si está en mayúsculas o minúsculas.
+            
+            El resultado será una cadena de texto con la palabra y el número de veces que aparece en el mensaje, con este formato:
+            gato2perro3coche1sol1
+            
+            ¡Las palabras son ordenadas por su primera aparición en el mensaje!
+            
+            <h2>Más ejemplos:</h2>
+            <ul>
+                <li>llaveS casa CASA casa llaves -> llaves2casa3</li>
+                <li>taza ta za taza -> taza2ta1za1</li>
+                <li>casas casa casasas -> casas1casa1casas1</li>
+            </ul>
+            
+            <h2>Cómo resolverlo:</h2>
+            <ol>
+                <li>Resuelve el mensaje que encontrarás en este archivo: https://codember.dev/data/message_01.txt</li>
+            
+                <li>Envía tu solución con el comando "submit" en la terminal, por ejemplo así:
+                submit perro3gato3coche1sol1</li>
+            </ol>
+          </p>
+    </section>
+  
+    <section class="cont-resultado">
+        <h2>Solución:</h2>
+        <p class="resultado"></p>
+    </section>
+   
+    <script type="module" src="./index.js" ></script>
+</body>
+</html>
